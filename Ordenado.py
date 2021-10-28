@@ -5,7 +5,7 @@ print("Nome: ", nomeAluno)
 print("Nota: ", nota)
 
 
-if (nota > 200):
+if (nota > 200 or nota < 0):
     print("Nota invalida")
 elif (nota >= 95):
     print("O aluno passou")    
