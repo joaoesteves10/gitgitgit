@@ -20,6 +20,6 @@ try:
     else if(variavel_operador == "%"):
         print(numA % numB)
     else:
-        print("operação inválida")
+        print("ERRO: operação inválida")
 expect Exception as err:
         print("ERRO: " + err.error())
